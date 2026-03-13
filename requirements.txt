@@ -1,0 +1,32 @@
+# Satellite Data Pipeline - Phase 1a Dependencies
+# Install: pip install -r requirements.txt
+
+# === Sentinel-2 (Copernicus Data Space) ===
+openeo>=0.28.0
+sentinelhub>=3.10.0
+requests>=2.31.0
+
+# === Sentinel-1 (SAR) ===
+asf_search>=7.0.0
+
+# === VIIRS Nighttime Lights (NASA) ===
+blackmarblepy>=1.3.0
+earthaccess>=0.9.0
+
+# === AIS Ship Tracking ===
+websockets>=12.0
+
+# === Image Processing & Analysis ===
+rasterio>=1.3.0
+numpy>=1.26.0
+matplotlib>=3.8.0
+Pillow>=10.0.0
+
+# === Data Handling ===
+pandas>=2.1.0
+geopandas>=0.14.0
+shapely>=2.0.0
+
+# === Utilities ===
+python-dotenv>=1.0.0
+tqdm>=4.66.0
